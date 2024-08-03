@@ -1,0 +1,35 @@
+/* YoutubeGallery.css */
+
+.youtube-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+.youtube-table th,
+.youtube-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.youtube-table th {
+  background-color: #f2f2f2;
+}
+
+.youtube-table td a {
+  color: blue;
+  text-decoration: none;
+  display: inline-block;
+  max-width: 800px; /* title 열의 최대 폭 설정 */
+  word-wrap: break-word; /* 자동 줄 바꿈 설정 */
+}
+
+.youtube-table td a:hover {
+  text-decoration: underline;
+}
+
+.youtube-table .no-link {
+  background-color: #ccffcc; /* link가 null인 경우 연두색 배경 */
+}
