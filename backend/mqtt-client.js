@@ -4,7 +4,7 @@ const { MongoClient } = require('mongodb');
 
 const mqttBrokerUrl = 'mqtt://ai.doowon.ac.kr:1883';
 const inTopic = 'i2r/kdi6033@gmail.com/out';
-const mongoUrl = 'mongodb://127.0.0.1:27017';
+const mongoUrl = 'mongodb://127.0.0.1:27000';
 const dbName = 'local';
 const collectionName = 'localRecord';
 
